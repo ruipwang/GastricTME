@@ -10,13 +10,11 @@ Please contact LWang22@mdanderson.org and RWang12@mdanderson.org with any questi
 
 ## Downloading the data
 
-cell2subtype have been organized into R objects that can be downloaded from /Input_data/.
+Cell level metadata is available in the provided /Input_data/meta.Rdata, which contains sample, tissue type, major cell types and detailed cell types. 
 
-Cell level metadata is available in the provided /Input_data/Cell metaData.rda, which contains QC statistics of cells, clinical information of associated samples and cell types. 
+Specific input data for each figure is also inclued in /Input_data.
 
-Cell_ID to cell type association for all the TME cells are available in the provided /input_data/cellType_All.rda.
-
-All the processed data are uploading to GEO: GSE234129.
+The processed data are uploading to GEO: GSE234129.
 
 ## Data visualization
 
@@ -33,14 +31,5 @@ Tested on macOS Big Sur
    - tidyr
    - ggpubr
    - RColorBrewer
-   - monocle
-   - smoother
    - pheatmap
-   - Hmisc
-   - monocle3
-   - ggrepel
-   - CytoTRACE
-   - shazam
-
-3. igblast_1.17.1
-4. Change-O toolkit
+   - ggsignif
